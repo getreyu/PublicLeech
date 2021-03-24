@@ -7,7 +7,7 @@ WORKDIR /app
 ENV PIP_NO_CACHE_DIR 1
 
 # fix "ephimeral" / "AWS" file-systems
-RUN sed -i.bak 's/us-west-2\.ec2\.//' /etc/apt/sources.list
+
 
 # to resynchronize the package index files from their sources.
 RUN apt -qq update
