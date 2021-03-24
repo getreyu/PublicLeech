@@ -5,4 +5,4 @@ Pillow
 pyrogram
 tgcrypto
 youtube-dl
-
+hurry.filesize
